@@ -20,16 +20,13 @@ function NavBar() {
               </a>
             </div>
             <div className="hidden items-center md:flex space-x-2">
-              {/* <Link to={"/"}> */}
               <a
                 className="py-4 mt-1 px-2 text-green-500 border-green-500 border-b-4 font-semibold"
                 href="#"
               >
                 Home
               </a>
-              {/* </Link> */}
 
-              {/* <Link to={"/actors"}> */}
               <a
                 className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
                 href="#"

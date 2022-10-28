@@ -1,3 +1,13 @@
+# DONE
+
+    npm install react-router-dom
+    npx cypress open
+
+# TODO
+
+[.] NavBar and MovieList/Detail test
+[.] Button click test
+
 # Projet Puissance 4
 
 Votre objectif est de créer un jeu de puissance 4 dans le navigateur, tour par tour.

@@ -1,6 +1,11 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import AddMovie from "./AddMovie";
+import ActorsPage from "./ActorsPage";
+import MoviePage from "./MoviePage";
 
 const people = [
   {
@@ -88,9 +93,14 @@ function MovieList() {
         ))}
       </>
       <br />
-      {/* <Link to="/create">
-        <
-      </Link> */}
+      <Link className="flex mb-4" to="/create">
+        <button
+          id="CreateNewMovie"
+          className="w-full bg-transparent bg-green-200 hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
+        >
+          Create
+        </button>
+      </Link>
     </div>
   );
 }
